@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Registration Form Exercise</h1>
+    <section id="email">
+      <form>
+        <h3>Contact and personal info</h3>
+        <table>
+          <tr>
+            <td>Email Address:</td>
+            <td><input type="text" email="email" /></td>
+          </tr>
+
+          <tr>
+            <td>Password:</td>
+            <td><input type="Password" name="password" /></td>
+          </tr>
+          <tr>
+            <td>Date of Birth:</td>
+            <td><input type="date" /></td>
+          </tr>
+
+          <tr>
+            <td>Telephone Number:</td>
+            <td><input type="number" name="telephone" id="telephone" /></td>
+          </tr>
+        </table>
+        <h3>Payment information</h3>
+
+        <label for="payment_plan">Choose your payment plan:</label>
+        <select name="payment_plan" id="payment_plan">
+          <option value="standard">free plan</option>
+          <option value="1">10$</option>
+          <option value="2">20$</option>
+          <option value="3">30$</option>
+        </select>
+        <br />
+        <br />
+        <label for="pro_plan">Pro Plan Subscription</label>
+        <input type="checkbox" value="submit" />
+        <label for="creditcard">Credit Card Number:</label>
+        <input type="number" name="creditcard" id="creditcard" />
+        <br />
+        <br />
+        <label for="cvc">CVC:</label>
+        <input type="number" id="cvc" />
+        <br />
+        <br />
+        <section id="expiration">
+          <tr>
+            Expiration Date:
+            <td><input type="date" /></td>
+          </tr>
+        </section>
+        <br>
+        <label for="billing_address">Your Billing Address:</label>
+        <input type="text" id="billing_address">
+        <br>
+        <br>
+        <h3>click here to complete your registration</h3>
+        <button>submit</button>
+      </form>
+    </section>
+
+  </body>
+</html>
