@@ -1,0 +1,27 @@
+.box {
+  height: 700;
+  width: 700px;
+  border: 15px solid rgb(147, 84, 0);
+background-color: beige;
+  margin: 50px;
+}
+
+.title {
+  color: rgb(147, 84, 0);
+  background-color: beige;
+}
+
+ .text {
+  color: rgb(147, 84, 0);
+  background-color: beige;
+}
+
+.form {
+  color: rgb(147, 84, 0);
+  background-color: beige;
+}
+
+#footer {
+  background-color: beige;
+  color: rgb(147, 84, 0);
+}
